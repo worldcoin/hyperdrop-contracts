@@ -22,7 +22,7 @@ First, you'll need a contract that adheres to the [ISemaphore](https://github.co
 
 ## Usage with Worldcoin
 
-Right now, Wouldcoin maintains a staging Semaphore instance instance (for use with our [mock app](https://mock-app.id.worldcoin.org) and its faucet) on Polygon Mumbai. The address is `0x330C8452C879506f313D1565702560435b0fee4C`, and the group ID is `1`. A production instance will be deployed soon.
+Right now, Worldcoin maintains a staging Semaphore instance instance (for use with our [mock app](https://mock-app.id.worldcoin.org) and its faucet) on Polygon Mumbai. The address is `0x330C8452C879506f313D1565702560435b0fee4C`, and the group ID is `1`. A production instance will be deployed soon.
 
 ## Development
 
