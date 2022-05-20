@@ -6,8 +6,9 @@ import { mathUtils } from './libraries/MathUtils.sol';
 import { SafeTransferLib } from 'solmate/utils/SafeTransferLib.sol';
 import { ByteHasher } from 'worldcoin/world-id/libraries/ByteHasher.sol';
 import { ISemaphore } from 'worldcoin/world-id/interfaces/ISemaphore.sol';
+import { ThirdwebContract } from 'thirdweb-dev/ThirdwebContract.sol';
 
-contract WLDSplit {
+contract WLDSplit is ThirdwebContract {
     using ByteHasher for bytes;
 
     error Unauthorized();
